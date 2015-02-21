@@ -15,9 +15,11 @@ void setup()
 
 void loop()
 {
+  // Stop the servo
   myservo.writeMicroseconds(1500+servo_offset);
-  delay(10000);
+  delay(10000); // Wait for 10s
   
+  // Rotate with different speeds
   myservo.writeMicroseconds(1450+servo_offset);
   delay(1000);
   
@@ -30,6 +32,7 @@ void loop()
   myservo.writeMicroseconds(1300+servo_offset);
   delay(1000);
   
+  // Rotate the other way
   myservo.writeMicroseconds(2000+servo_offset);
   delay(1000);
 }
