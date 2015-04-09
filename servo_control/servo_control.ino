@@ -62,7 +62,7 @@ void loop()
 void MoveLeft()
 {
   current_movement = MOVING_LEFT;
-  rotating_servo.writeMicroseconds(1300+servo_offset);
+  rotating_servo.writeMicroseconds(1000+servo_offset);
 }
 
 void MoveRight()
