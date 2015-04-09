@@ -7,7 +7,7 @@ const int manual_control_pin = 6;  // The ID of the switch pin
 const int servo_pin          = 9;  // The ID of the servo pin
 
 // Set servo characteristics
-const int servo_offset       = 11; // The offset of the servo
+const int servo_offset       = 6;  // The offset of the servo
 
 enum movement {
   MOVING_LEFT,
