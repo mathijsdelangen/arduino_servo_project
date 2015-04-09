@@ -56,7 +56,7 @@ void loop()
     }
   }
 
-  delay(1000); // Wait a second
+  delay(100); // Wait a second
 }
 
 void MoveLeft()
